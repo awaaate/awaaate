@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenClaw - Contraportada</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: Georgia, 'Times New Roman', serif;
+            background: #1a1a2e;
+            color: #ffffff;
+            min-height: 100vh;
+            padding: 50px 40px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .hook {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            color: #ccc;
+        }
+        
+        .hook strong {
+            color: #fff;
+        }
+        
+        .tomas-note {
+            background: rgba(0, 212, 255, 0.1);
+            border-left: 3px solid #00d4ff;
+            padding: 20px;
+            margin: 30px 0;
+            font-size: 1em;
+            line-height: 1.6;
+        }
+        
+        .tomas-note strong {
+            color: #00d4ff;
+        }
+        
+        .body-text {
+            font-size: 0.95em;
+            line-height: 1.7;
+            color: #ccc;
+            margin: 25px 0;
+        }
+        
+        .tokens-note {
+            color: #00ff88;
+            font-size: 0.85em;
+            font-style: italic;
+            margin-top: -15px;
+            margin-bottom: 25px;
+        }
+        
+        .list-section {
+            margin: 30px 0;
+        }
+        
+        .list-section h3 {
+            color: #00d4ff;
+            font-size: 1em;
+            margin-bottom: 15px;
+            font-weight: normal;
+            letter-spacing: 1px;
+        }
+        
+        .list-item {
+            display: flex;
+            align-items: flex-start;
+            margin: 10px 0;
+            font-size: 0.9em;
+            line-height: 1.5;
+        }
+        
+        .list-item .check {
+            color: #00ff88;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        
+        .list-item .cross {
+            color: #ff6b6b;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        
+        .list-item .text {
+            color: #aaa;
+        }
+        
+        .list-item .aside {
+            color: #666;
+            font-style: italic;
+        }
+        
+        /* Authors Section */
+        .authors-section {
+            display: flex;
+            gap: 30px;
+            margin: 40px 0;
+            padding: 30px 0;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            justify-content: center;
+        }
+        
+        .author {
+            text-align: center;
+            flex: 1;
+            max-width: 200px;
+        }
+        
+        .author-photo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #00d4ff;
+            filter: grayscale(100%);
+            margin-bottom: 15px;
+        }
+        
+        .author-caption {
+            color: #888;
+            font-size: 0.85em;
+            line-height: 1.4;
+            font-style: italic;
+        }
+        
+        .author-caption strong {
+            color: #fff;
+            font-style: normal;
+        }
+        
+        .clients {
+            font-size: 0.85em;
+            color: #666;
+            margin: 25px 0;
+            line-height: 1.6;
+        }
+        
+        .clients strong {
+            color: #888;
+        }
+        
+        .quote {
+            text-align: center;
+            margin: 35px 0;
+            font-style: italic;
+            color: #aaa;
+            font-size: 1.1em;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .footer .brand {
+            color: #00d4ff;
+            font-weight: bold;
+            font-size: 1.2em;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+<body>
+
+    <p class="hook">
+        <strong>Este libro no es para ti</strong> si vives de manera relajada, no tienes demasiadas tareas y ya tienes asistentes y amigos dispuestos a hacer tu vida más fácil 24 horas al día…
+    </p>
+    
+    <div class="tomas-note">
+        Tomás cree que nadie leerá esto. Preferiría no publicarlo. Y como casi siempre tiene razón, pensé: si nadie iba a leerlo, ¿por qué no contar las historias que normalmente nos guardaríamos? ¿Por qué no hacer exactamente el manual que nosotros habríamos querido encontrar?<br><br>
+        Así que eso hicimos.<br><br>
+        Si resulta que Tomás se equivocaba —cosa que ocurre una vez cada eclipse—, entonces tienes entre manos algo valioso: una guía honesta, probada en combate, para dominar la magia de los agentes de IA.
+    </div>
+    
+    <p class="body-text">
+        Este libro lo escribió uno de los equipos más avanzados, con más talento y con menos presupuesto de la escena de IA en España. También uno de los más disfuncionales. Consumimos todos nuestros tokens en una semana. Generamos 280.000 prompts y 80.000 archivos que nadie nos pidió. No somos el equipo que más commits de GitHub o que más líneas de código tiró en 2025, pero probablemente somos los que más líneas de código tiraron a la papelera. Nos despertamos a las 5:17 de la madrugada porque un bot decidió que era buen momento para avisarnos de algo.
+    </p>
+    <p class="body-text">Y lo documentamos todo.</p>
+    <p class="body-text">En los últimos meses hemos consumido <strong>800.000.000 de tokens</strong>. Tomás dice que Carlos consume más. Carlos sabe que es al revés.</p>
+    
+    <div class="list-section">
+        <h3>AQUÍ ENCONTRARÁS:</h3>
+        <div class="list-item">
+            <span class="check">✓</span>
+            <span class="text">Cómo darle vida a uno de estos monstruos complacientes que hará tu trabajo mientras duermes</span>
+        </div>
+        <div class="list-item">
+            <span class="check">✓</span>
+            <span class="text">Cómo evitar que te despierte a las 5:17 AM <span class="aside">(spoiler: no lo evitarás)</span></span>
+        </div>
+        <div class="list-item">
+            <span class="check">✓</span>
+            <span class="text">Cómo prepararte para un futuro donde nunca más estarás solo<br><span class="aside">(Los humanos, claro. Tú ya tenías muchísimos amigos súper competentes antes de estas tonterías. Seguro.)</span></span>
+        </div>
+    </div>
+    
+    <div class="list-section">
+        <h3>LO QUE NO ENCONTRARÁS:</h3>
+        <div class="list-item">
+            <span class="cross">✗</span>
+            <span class="text">Teoría académica</span>
+        </div>
+        <div class="list-item">
+            <span class="cross">✗</span>
+            <span class="text">Promesas vacías</span>
+        </div>
+        <div class="list-item">
+            <span class="cross">✗</span>
+            <span class="text">Un equipo que sabe lo que hace <span class="aside">(bueno, a veces)</span></span>
+        </div>
+        <div class="list-item">
+            <span class="cross">✗</span>
+            <span class="text">Un equipo presumiendo de rondas de inversión y con un planazo para conquistar el mundo</span>
+        </div>
+    </div>
+    
+    <div class="authors-section">
+        <div class="author">
+            <img src="foto_tomas.jpg" alt="Tomás Awate" class="author-photo">
+            <p class="author-caption"><strong>Tomás</strong>, un genio que no cree que debemos publicar este libro.</p>
+        </div>
+        <div class="author">
+            <img src="foto_carlos.jpg" alt="Carlos Ortet" class="author-photo">
+            <p class="author-caption"><strong>Carlos</strong>, un eterno estudiante que escribe hasta en las servilletas (literal).</p>
+        </div>
+    </div>
+    
+    <p class="clients">
+        <strong>Clientes que inexplicablemente siguen confiando en ellos:</strong><br>
+        CaixaBank · Ford · PortAventura · Veolia · CocaCola · Nestlé · Bioderma · Danone · Inter Miami
+    </p>
+    
+    <p class="quote">"No es teoría. Es lo que usamos todos los días.<br>Y a veces funciona."</p>
+    
+    <div class="footer">
+        <div class="brand">498AS.com</div>
+    </div>
+
+</body>
+</html>
